@@ -12,6 +12,9 @@ html {
 .main-section {
   max-width: 1200px;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 144px;
 }
 
 .header-section {
@@ -89,4 +92,144 @@ html {
   display: flex;
   justify-content: space-between;
   width: 12%;
+}
+
+.my-work {
+  padding: 14px;
+}
+
+.inner-card {
+  background: url("./images/projectOne.jpg");
+  height: 140px;
+  opacity: 0.4;
+}
+
+.inner-card-two {
+  background: url("./images/imageNine.jpg");
+  height: 140px;
+  opacity: 0.4;
+}
+.inner-card-three {
+  background: url("./images/imageSeven.jpg");
+  height: 140px;
+  opacity: 0.4;
+  background-size: cover;
+  background-position: 50%;
+}
+.card {
+  height: 300px;
+  padding: 14px;
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  box-shadow:
+    0 0 10px rgba(0, 0, 0, 0.2),
+    /* left shadow */ 5px 0 10px rgba(46, 45, 45, 0.2); /* right shadow */
+  margin-bottom: 6rem;
+}
+
+.card h1 {
+  margin-top: 2rem;
+  color: rgb(15, 14, 14);
+}
+
+.card p {
+  color: rgb(15, 14, 14);
+  line-height: 2rem;
+}
+
+.title-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  width: 90%;
+}
+
+.outer-section-title {
+  font-size: 44px;
+  margin-bottom: 24px;
+}
+.my-work {
+  display: flex;
+  justify-content: space-between;
+  gap: 54px;
+}
+
+.inner-card-four {
+  background: url("./images/imageSeven.jpg");
+  height: 140px;
+  opacity: 0.4;
+  background-size: cover;
+  background-position: 50%;
+}
+
+.inner-card-five {
+  background: url("./images/imageSix.jpg");
+  height: 140px;
+  opacity: 0.4;
+  background-size: cover;
+  background-position: 50%;
+}
+
+.inner-card-six {
+  background: url("./images/imageNine.jpg");
+  height: 140px;
+  opacity: 0.4;
+  background-size: cover;
+  background-position: 50%;
+}
+
+.footer-image {
+  background: url("./images/imageOne.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 40%;
+  height: 50vh;
+}
+
+.footer-section {
+  height: 500px;
+  background-color: #1992d4;
+  padding: 34px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-section h1 {
+  font-size: 30px;
+}
+
+.phone-div-footer {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+  align-items: center;
+}
+
+.email-div-footer {
+  display: flex;
+  width: 64%;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-div {
+  margin-right: 24px;
+  color: white;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  line-height: 35px;
+  gap: 34px;
+  height: 340px;
+}
+
+.icons-footer {
+  margin-top: 14px;
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+  color: black;
 }
