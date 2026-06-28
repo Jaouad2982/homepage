@@ -243,20 +243,30 @@ html {
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 600px) {
+  .main-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+  }
 }
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 768px) {
   .main-section {
-    background-color: red;
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
 
+  .footer-image {
+    width: 100%;
+  }
+
   .paragraph {
     display: inline-block;
-    padding: 74px;
-    width: 60%;
+    padding: 24px;
+    width: 50%;
+    margin-bottom: 12rem;
   }
 
   .image-section {
@@ -278,12 +288,23 @@ html {
   .card3,
   .card4,
   .card5,
-  .card6,
-  .card7,
-  .card8 {
+  .card6 {
     width: 45%;
   }
 
+  .card7,
+  .card8 {
+    width: 50%;
+  }
+
+  .card7 {
+    margin-left: 2px;
+  }
+
+  .card3,
+  .card6 {
+    display: block;
+  }
   .card3,
   .card6 {
     display: none;
@@ -291,13 +312,21 @@ html {
 
   .block-divs {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-content: space-between;
   }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
+@media only screen and (max-width: 1292px) {
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
+
+@media (min-width: 770px) and (max-width: 1392px) {
+  /* Styles for screens between X and Y pixels wide */
+  .main-section {
+  }
+  .block-divs {
+    display: none;
+  }
 }
